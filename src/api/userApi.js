@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://assignsyn-backend.onrender.com/"
+  baseURL: "http://assignsyn-backend.onrender.com/api"
 });
 
 export const fetchUsers = () => api.get("/");
